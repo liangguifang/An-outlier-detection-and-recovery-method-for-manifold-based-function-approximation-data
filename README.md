@@ -40,9 +40,6 @@ The image experiment expects grayscale PNG files in `data/car/`. The selected im
 
 `MMLSforA` evaluates `LW` with the ambient-space distance `norm(r_i - q)` and the explicit radius `delta`. `FLCS` uses `w_test` with radius `4*h` (the coefficient is set in `src/FLCS.m`). Choose `delta` and `h` for the scale of each dataset; the example scripts use `20*h`, `4*h`, and `6*h` for the helix, Klein bottle, and image experiments respectively.
 
-## Reproducibility
-
-Large generated `.mat`, `.fig`, `.png`, `.pdf`, and `.csv` files should be stored separately or with Git LFS.
 
 ## License
 
