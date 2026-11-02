@@ -1,4 +1,4 @@
-# Manifold MLS and Outlier Detection
+# An outlier detection and recovery method for manifold-based function approximation data
 
 MATLAB implementation of manifold moving least-squares approximation and sparse outlier detection.
 
