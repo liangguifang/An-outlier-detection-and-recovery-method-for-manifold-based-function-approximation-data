@@ -22,6 +22,8 @@ Run scripts with their own function folders. The Zhao race-car scripts share
   4.3.2_Computational_cost/our and zhao: car100neicun_and_time.m
   Images are bundled in data/car. Working-set measurements use Windows.
 
+For each experimental setting, we initialized the random number generator with a fixed seed. Within each trial, all methods under comparison received the same outlier realization, with identical outlier locations, magnitudes, and signs.
+
 Our method builds the approximation matrix with buildLocalPcaMLS(X, d, m),
 where X has one sample per row. The fifth output Btest maps training
 function values to independent test points in the approximation experiment.
